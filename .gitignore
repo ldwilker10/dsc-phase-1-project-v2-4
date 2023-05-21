@@ -4,3 +4,5 @@ __pycache__
 *.pytest_cache
 .gitattributes
 !*.zip
+/Users/lucaswilkerson/Desktop/Phase1_project/dsc-phase-project-v2-4/zippedData/im.db.zip
+/Users/lucaswilkerson/Desktop/Phase1_project/dsc-phase-project-v2-4/zippedData/
