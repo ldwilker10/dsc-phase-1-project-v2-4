@@ -25,22 +25,24 @@ The movie datasets included for this analysis are from the Box Mojo, IMDB and Th
 
 This project uses descriptive analysis, including explorations correlations between movie budget, run time and genre on total net gross earnings of the film. This provides a useful insight into characteristics of making a successful film to identify recommendations for what Microsoft should consider when porducing a film.
 
-### Results
+### Results/Insights 
 
-Add Graph
+- There is a correlation between production budget and total overall net gross earnings in which higher budget movies tend to yield higher total net gross earnings. 
 
-### Conclusions/Recommendations
+- The movie's run time has less of an effect on total net gross earnings. The overall average run time was 107 minutes but when looking at both the top 20 and top 100 higheest net grossing films run time averaged between 120-130 minutes. 
 
-The non-technical presentation is a slide deck presenting your analysis to business stakeholders.
+- The average top net grossing genres are Animation, Adventure, and Sci-Fi, however the genres that produced the highest max net gross were Sci-Fi, Action, and Adventure. 
 
-- Rec 1:
-- Rec 2:
-- Rec 3: 
+### Recommendations for Microsoft
+
+- When planning the budget, Microsoft should plan for a budget of 160 million for production of their films in order to maximize potential for high net gross earnings. 
+- While run times did vary, Microsoft should plan to produce films with a run time between 120-130 minutes. 
+- Microsoft should produce movies with the genres of Animation, Adventure, and Sci-Fi. 
 
 
 ### Next Steps
 
-The Jupyter Notebook is a notebook that uses Python and Markdown to present your analysis to a data science audience.
+
 
 
 
