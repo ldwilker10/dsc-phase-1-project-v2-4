@@ -1,6 +1,6 @@
 # Microsoft Movie Analysis
 
-![film][https://pixabay.com/photos/movie-film-roll-filmstrip-analog-3057394/] 
+![film][https://github.com/ldwilker10/dsc-phase-1-project-v2-4/blob/master/Images/film.jpg]
 
 
 ## Project Overview
@@ -34,35 +34,9 @@ This project uses descriptive analysis, including explorations correlations betw
 
 - The average top net grossing genres are Animation, Adventure, and Sci-Fi, however the genres that produced the highest max net gross were Sci-Fi, Action, and Adventure. 
 
-### Recommendations for Microsoft
+### Conclusion/Recommendations for Microsoft
 
 - When planning the budget, Microsoft should plan for a budget of 160 million for production of their films in order to maximize potential for high net gross earnings. 
 - While run times did vary, Microsoft should plan to produce films with a run time between 120-130 minutes. 
 - Microsoft should produce movies with the genres of Animation, Adventure, and Sci-Fi. 
 
-
-### Next Steps
-
-
-
-
-
-### README Contents
-
-A professional GitHub repository has:
-
-1. `README.md`
-    * A file called `README.md` at the root of the repository directory, written in Markdown; this is what is rendered when someone visits the link to your repository in the browser
-    * This file contains these sections:
-       * Overview
-       * Business Understanding
-          * Include stakeholder and key business questions
-       * Data Understanding and Analysis
-          * Source of data
-          * Description of data
-          * Three visualizations (the same visualizations presented in the slides and notebook)
-       * Conclusion
-          * Summary of conclusions including three relevant findings
-
-
-## Grading
