@@ -1,6 +1,5 @@
 # Microsoft Movie Analysis
 
-![film][https://github.com/ldwilker10/dsc-phase-1-project-v2-4/blob/master/Images/film.jpg]
 ![film][Images/film.jpg] 
 
 ## Project Overview
