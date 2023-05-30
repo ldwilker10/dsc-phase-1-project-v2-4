@@ -9,7 +9,7 @@ This project uses exploratory data analysis to analyze characteristics and facto
 
 ### Business Problem
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. I will be exploring what types of films are currently doing the best at the box office translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. I will be exploring what types of films are currently doing the best at the box office and translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
 
 
 ### The Data
@@ -23,13 +23,13 @@ The movie datasets included for this analysis are from the Box Mojo, IMDB and Th
 
 ### Methods
 
-This project uses descriptive analysis, including explorations correlations between movie budget, run time and genre on total net gross earnings of the film. This provides a useful insight into characteristics of making a successful film to identify recommendations for what Microsoft should consider when porducing a film.
+This project uses descriptive analysis, including explorations correlations between movie budget, run time and genre on total net gross earnings of the film. This provides a useful insight into characteristics of making a successful film to identify recommendations for what Microsoft should consider when producing a film.
 
 ### Results/Insights 
 
 - There is a correlation between production budget and total overall net gross earnings in which higher budget movies tend to yield higher total net gross earnings. 
 
-- The movie's run time has less of an effect on total net gross earnings. The overall average run time was 107 minutes but when looking at both the top 20 and top 100 higheest net grossing films run time averaged between 120-130 minutes. 
+- The movie's run time has less of an effect on total net gross earnings. The overall average run time was 107 minutes but when looking at both the top 20 and top 100 highest net grossing films run time averaged between 120-130 minutes. 
 
 - The average top net grossing genres are Animation, Adventure, and Sci-Fi, however the genres that produced the highest max net gross were Sci-Fi, Action, and Adventure. 
 
