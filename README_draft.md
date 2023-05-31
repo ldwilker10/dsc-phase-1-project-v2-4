@@ -29,9 +29,17 @@ This project uses descriptive analysis, including explorations correlations betw
 
 - There is a correlation between production budget and total overall net gross earnings in which higher budget movies tend to yield higher total net gross earnings. 
 
+![Budget](top_10_gross.png) 
+
 - The movie's run time has less of an effect on total net gross earnings. The overall average run time was 107 minutes but when looking at both the top 20 and top 100 highest net grossing films run time averaged between 120-130 minutes. 
 
+![Runtime](Images/top_20_runtime.png) 
+
 - The average top net grossing genres are Animation, Adventure, and Sci-Fi, however the genres that produced the highest max net gross were Sci-Fi, Action, and Adventure. 
+
+![Genre](Images/top_10_genre.png) 
+
+![Genre_max](Images/top10_genre_max.png) 
 
 ### Conclusion/Recommendations for Microsoft
 
