@@ -52,7 +52,7 @@ This project uses descriptive analysis, including explorations correlations betw
 
 ![Budget](Images/top_10_gross.png) 
 
-- The movie's run time has less of an effect on total net gross earnings. The overall average run time was 107 minutes but when looking at both the top 20 and top 100 highest net grossing films run time averaged between 120-130 minutes. 
+- The movie's runtime has less of an effect on total net gross earnings. The overall average runtime was 107 minutes but when looking at both the top 20 and top 100 highest net grossing films runtime averaged between 120-130 minutes. 
 
 ![Runtime](Images/runtime_scatter.png) 
 
@@ -65,7 +65,7 @@ This project uses descriptive analysis, including explorations correlations betw
 ### Conclusion/Recommendations for Microsoft
 
 - When planning the budget, Microsoft should plan for a budget of 160 million for production of their films in order to maximize potential for high net gross earnings. 
-- While run times did vary, Microsoft should plan to produce films with a run time between 120-130 minutes. 
+- While runtimes did vary, Microsoft should plan to produce films with a runtime between 120-130 minutes. 
 - Microsoft should produce movies with the genres of Animation, Adventure, and Sci-Fi. 
 
 ### Repository Structure
@@ -73,8 +73,8 @@ This project uses descriptive analysis, including explorations correlations betw
 ├── Draft_project_materials
 ├── Images
 ├── zippedData
+├── .gitignore
 ├── Microsoft_Analysis.ipynb
 ├── Microsoft_Movie_Analysis_Presentation_Slides .pdf
-├── README.md
-└── README_draft.md
+└── README.md
 ```
