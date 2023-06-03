@@ -23,18 +23,23 @@ The movie datasets included for this analysis are from the Box Mojo, IMDB and Th
 * [IMDB](https://www.imdb.com/)
 * [Box Office Mojo](https://www.boxofficemojo.com/)
 
-The Numbers Budget dataset contains 5782 records with 6 columns that include information on id, release date, movie (the movie title), production budget domesticgross, and worldwide gross. Upon cleaning the dataset by removing any null values and adding a new column for total net gross earnings (worldwide gross - production budget), the dataset now contains 5234 rows. 
+The Numbers Budget dataset contains 5782 records with 6 columns that include information on id, release date, movie (the movie title), production budget domestic gross, and worldwide gross. Upon cleaning the dataset by removing any null values and adding a new column for total net gross earnings (worldwide gross - production budget), the dataset now contains 5234 rows. 
 
-![Total_gross](Images/total_gross_hist.png) 
+![Total_gross_hist](Images/total_gross_hist.png) 
 
 When looking at the distribution of films by total net gross, we can see that the distribution is positively skewed. A majority of the films fall between 0 and 200 million dollars for total net gross earnings. Using descriptive analysis we find that the mean for total net gross earnings is roughly 66.7 million dollars and the median is 13.6 million dollars. 
 
-The IMDB dataset contain numerous entries with multiple tables to pull data from. I ran a query to pull data that included the columns title, is orginal title, runtime minutes, genres and movie id. I set original_title to one because I wanted to return movies that had their original title and then grouped but movie id and genre. This yielded 36857 entries. I then merged this dataset with the cleaned Numbers Budget dataset and dropped any null values to obtain a clean dataset of 1619 entries containing the information on budget, gross, runtime minutes and genre needed for analysis. 
+The IMDB dataset contain numerous entries with multiple tables to pull data from. I ran a query to pull data that included the columns title, is orginal title, runtime minutes, genres and movie id. I set original title to 1 because I wanted to return movies that had their original title and then grouped but movie id and genre. This yielded 36857 entries. I then merged this dataset with the cleaned Numbers Budget dataset and dropped any null values to obtain a clean dataset of 1619 entries containing the information on budget, gross, runtime minutes and genre needed for analysis. 
 
+![combined_gross_hist](total_gross_combined_dfs.png) 
+
+Looking at the distribution of this smaller dataset, it seems to also be positively skewed with most films falling between 0 to 200 million dollars in total net gross earnings. 
+
+![Runtime_hist](runtime_distribution.png) 
+
+The distribution of runtimes seems to show that most film runtimes fall between the range of just below 100 minutes to a little above 100 minutes. Using descriptive analysis we see that the mean runtime is 107 minutes. 
 
 The Box Office Mojo dataset consisted of 3387 entries with columns including information on title, studio, domestic gross, foreign gross and year. Ultimately this data set was not utilized as it did not contain any budget information needed to calculate total net gross earnings. 
-
-The IMDB dataset 
 
 
 ### Methods
@@ -64,6 +69,7 @@ This project uses descriptive analysis, including explorations correlations betw
 - Microsoft should produce movies with the genres of Animation, Adventure, and Sci-Fi. 
 
 ### Repository Structure
+```
 ├── Draft_project_materials
 ├── Images
 ├── zippedData
@@ -71,3 +77,6 @@ This project uses descriptive analysis, including explorations correlations betw
 ├── Microsoft_Movie_Analysis_Presentation_Slides .pdf
 ├── README.md
 └── README_draft.md
+```
+
+
