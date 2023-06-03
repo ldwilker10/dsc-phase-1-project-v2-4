@@ -31,11 +31,11 @@ When looking at the distribution of films by total net gross, we can see that th
 
 The IMDB dataset contain numerous entries with multiple tables to pull data from. I ran a query to pull data that included the columns title, is orginal title, runtime minutes, genres and movie id. I set original title to 1 because I wanted to return movies that had their original title and then grouped but movie id and genre. This yielded 36857 entries. I then merged this dataset with the cleaned Numbers Budget dataset and dropped any null values to obtain a clean dataset of 1619 entries containing the information on budget, gross, runtime minutes and genre needed for analysis. 
 
-![combined_gross_hist](total_gross_combined_dfs.png) 
+![combined_gross_hist](Images/total_gross_combined_dfs.png) 
 
 Looking at the distribution of this smaller dataset, it seems to also be positively skewed with most films falling between 0 to 200 million dollars in total net gross earnings. 
 
-![Runtime_hist](runtime_distribution.png) 
+![Runtime_hist](Images/runtime_distribution.png) 
 
 The distribution of runtimes seems to show that most film runtimes fall between the range of just below 100 minutes to a little above 100 minutes. Using descriptive analysis we see that the mean runtime is 107 minutes. 
 
